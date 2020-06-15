@@ -7,7 +7,7 @@ ENV SERVER_NAME=misaelvargas.tech
 
 RUN \
     apt-get update && \
-    apt-get install -y nginx && \
+    apt-get install -y nginx
 
 EXPOSE 80
 EXPOSE 443  
