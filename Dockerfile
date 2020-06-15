@@ -2,8 +2,8 @@ FROM ubuntu
 
 MAINTAINER Misael Vargas
 
-ENV DOCUMENTROOT="$documentroot"
-ENV SERVER_NAME="$servername"
+ENV DOCUMENTROOT=/var/www/html
+ENV SERVER_NAME=misaelvargas.tech
 
 RUN \
     apt-get update && \
